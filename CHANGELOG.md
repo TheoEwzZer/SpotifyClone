@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.1](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.1.0...v1.1.1) (2023-11-04)
+
+
+### 🔧 Other
+
+* add password.txt to .gitignore ([af3145c](https://github.com/TheoEwzZer/SpotifyClone/commit/af3145ca33f8fcce6d39384d179a972c3ba5e53a))
+* add types for database tables and interfaces ([7cf8b56](https://github.com/TheoEwzZer/SpotifyClone/commit/7cf8b5658e36dfbc0962554b221b7ed3a331759c))
+
+
+### 📦 Dependencies
+
+* add supabase dependency to package.json ([71f0abc](https://github.com/TheoEwzZer/SpotifyClone/commit/71f0abc488157aff2dbb68626ab150f825787357))
+
 ## [1.1.0](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.0.0...v1.1.0) (2023-11-04)
 
 
