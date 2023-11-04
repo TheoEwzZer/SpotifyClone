@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.0.0...v1.1.0) (2023-11-04)
+
+
+### ✨ Features
+
+* add new components and update layout ([622dec9](https://github.com/TheoEwzZer/SpotifyClone/commit/622dec9b4ee2c6326339e93cb1e4e08ddf06934e))
+
+
+### 📦 Dependencies
+
+* add new dependencies react-icons and ([95277ed](https://github.com/TheoEwzZer/SpotifyClone/commit/95277ed9e348cf2a1bd16e4bd717e62499a10121))
+
 ## 1.0.0 (2023-11-04)
 
 
