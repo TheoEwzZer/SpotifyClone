@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.2](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.1.1...v1.1.2) (2023-11-04)
+
+
+### 🔧 Other
+
+* add Supabase and User context providers, update ([080ef55](https://github.com/TheoEwzZer/SpotifyClone/commit/080ef55c537bcb382e0a837e7d23ebda3d6ca82c))
+
+
+### 📦 Dependencies
+
+* add Supabase and Stripe dependencies ([84bf61c](https://github.com/TheoEwzZer/SpotifyClone/commit/84bf61cbd1ecd70247afc5f95ef6f3be4419be91))
+
 ## [1.1.1](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.1.0...v1.1.1) (2023-11-04)
 
 
