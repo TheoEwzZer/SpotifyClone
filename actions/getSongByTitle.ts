@@ -26,6 +26,7 @@ async function getSongsByTitle(title: string): Promise<Song[]> {
 
   if (error) {
     console.error(error);
+    return [];
   }
 
   return (data as Song[]) || [];

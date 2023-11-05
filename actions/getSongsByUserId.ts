@@ -28,6 +28,7 @@ async function getSongsByUserId(): Promise<Song[]> {
 
   if (error) {
     console.log(error.message);
+    return [];
   }
 
   return (data as Song[]) || [];
