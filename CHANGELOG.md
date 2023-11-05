@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.4.0...v1.5.0) (2023-11-05)
+
+
+### ✨ Features
+
+* add favorites functionality ([157be27](https://github.com/TheoEwzZer/SpotifyClone/commit/157be2757632e930e974159dd631c4130fe9b8c8))
+
 ## [1.4.0](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.3.0...v1.4.0) (2023-11-05)
 
 
