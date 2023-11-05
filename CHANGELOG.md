@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.0](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.3.0...v1.4.0) (2023-11-05)
+
+
+### ✨ Features
+
+* add search functionality ([0a65f0e](https://github.com/TheoEwzZer/SpotifyClone/commit/0a65f0ef239a13cdac27fe7a1a84e847ce0a61c9))
+
+
+### 📦 Dependencies
+
+* add query-string package and update dependencies ([7ce33e9](https://github.com/TheoEwzZer/SpotifyClone/commit/7ce33e9cc71fb6b45d6d9b397613bb3be2203c0e))
+
 ## [1.3.0](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.2.0...v1.3.0) (2023-11-05)
 
 
