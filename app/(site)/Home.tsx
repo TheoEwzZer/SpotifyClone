@@ -1,14 +1,9 @@
 import getSongs from "@/actions/getSong";
-
 import Header from "@/components/Header";
 import ListItem from "@/components/ListItem";
-import PageContent from "@/components/PageContent";
-
 import { Song } from "@/types";
 
-export const revalidate = 0;
-
-async function Home(): Promise<React.ReactElement> {
+export async function Home(): Promise<React.ReactElement> {
   const songs: Song[] = await getSongs();
   return (
     <div className="bg-neutral-900 rounded-lg h-full w-full overflow-hidden overflow-y-auto">
@@ -38,10 +33,14 @@ async function Home(): Promise<React.ReactElement> {
         <div className="flex justify-between items-center">
           <h1 className="text-white text-2xl font-semibold">Newest of Songs</h1>
         </div>
-        <PageContent songs={songs} />
+        <div>
+          {songs.map(
+            (song: Song): React.ReactElement => (
+              <div key={song.id}>{song.title}</div>
+            )
+          )}
+        </div>
       </div>
     </div>
   );
 }
-
-export default Home;
