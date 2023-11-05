@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { AppRouterInstance } from "next/dist/shared/lib/app-router-context.shared-runtime";
 import { FaPlay } from "react-icons/fa";
 
 interface ListItemProps {
@@ -11,7 +12,7 @@ interface ListItemProps {
 }
 
 function ListItem({ image, name, href }: ListItemProps): React.ReactElement {
-  const router = useRouter();
+  const router: AppRouterInstance = useRouter();
 
   const onClick: () => void = (): void => {
     // Add authentication before push
@@ -37,7 +38,12 @@ function ListItem({ image, name, href }: ListItemProps): React.ReactElement {
       "
     >
       <div className="relative min-h-[64px] min-w-[64px]">
-        <Image className="object-cover" src={image} fill alt="Image" />
+        <Image
+          className="object-cover"
+          src={image}
+          fill
+          alt="Image"
+        />
       </div>
       <p className="font-medium truncate py-5">{name}</p>
       <div
