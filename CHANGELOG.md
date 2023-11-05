@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.2.0](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.1.2...v1.2.0) (2023-11-05)
+
+
+### ✨ Features
+
+* add Authentication modal and functionality ([2f07285](https://github.com/TheoEwzZer/SpotifyClone/commit/2f072859e5573aa16ed543a07a7e6fb93a60a975))
+* add upload modal and functionality ([60767a3](https://github.com/TheoEwzZer/SpotifyClone/commit/60767a3a277c45d392e6b0ca1e2fa427f1cbc430))
+
+
+### 📦 Dependencies
+
+* add new dependencies for Supabase authentication ([00dcc36](https://github.com/TheoEwzZer/SpotifyClone/commit/00dcc368acf79f604dd82543e79709662be91763))
+* add new dependencies react-hook-form and uniqid ([a2b559c](https://github.com/TheoEwzZer/SpotifyClone/commit/a2b559cc56b608f356383142a44da37cebfb31c3))
+
 ## [1.1.2](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.1.1...v1.1.2) (2023-11-04)
 
 
