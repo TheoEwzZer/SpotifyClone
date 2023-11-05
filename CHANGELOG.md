@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.3.0](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.2.0...v1.3.0) (2023-11-05)
+
+
+### ✨ Features
+
+* add songs fetching and list display ([1b862a8](https://github.com/TheoEwzZer/SpotifyClone/commit/1b862a80045c5dd0706b1957c5d2b8f5b90c3d45))
+
+
+### 🔒️ Security
+
+* add remotePatterns to images in next.config.js ([c22bf16](https://github.com/TheoEwzZer/SpotifyClone/commit/c22bf1637328f11c3ea577c4aa1de0c611cbd5c5))
+* add Supabase authentication middleware ([2528f85](https://github.com/TheoEwzZer/SpotifyClone/commit/2528f8535c3e47fe6b48a6717b28f3344b4adfb6))
+
+
+### 📦 Dependencies
+
+* add dotenv package to dependencies ([f72fa84](https://github.com/TheoEwzZer/SpotifyClone/commit/f72fa84eae14478e4cc78a39584d5d0c55856488))
+
 ## [1.2.0](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.1.2...v1.2.0) (2023-11-05)
 
 
