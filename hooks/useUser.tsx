@@ -35,7 +35,7 @@ export function MyUserContextProvider(props: Props): React.ReactElement {
   } = useSessionContext();
   const user: User | null = useSupaUser();
   const accessToken: string | null = session?.access_token ?? null;
-  const [isLoadingData, setIsLoadingData] = useState(false);
+  const [isLoadingData, setIsLoadingData] = useState<boolean>(false);
   const [userDetails, setUserDetails] = useState<UserDetails | null>(null);
   const [subscription, setSubscription] = useState<Subscription | null>(null);
 
@@ -81,6 +81,7 @@ export function MyUserContextProvider(props: Props): React.ReactElement {
       setUserDetails(null);
       setSubscription(null);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user, isLoadingUser]);
 
   const value = {

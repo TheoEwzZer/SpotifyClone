@@ -19,7 +19,7 @@ import Input from "./Input";
 import Button from "./Button";
 
 function UploadModal(): React.ReactElement {
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
 
   const uploadModal: UploadModalStore = useUploadModal();
   const supabaseClient: SupabaseClient<any, "public", any> =

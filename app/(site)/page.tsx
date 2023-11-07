@@ -2,7 +2,7 @@ import getSongs from "@/actions/getSong";
 
 import Header from "@/components/Header";
 import ListItem from "@/components/ListItem";
-import PageContent from "@/components/PageContent";
+import PageContent from "@/app/(site)/components/PageContent";
 
 import { Song } from "@/types";
 

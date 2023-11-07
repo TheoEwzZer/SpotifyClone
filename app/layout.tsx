@@ -10,6 +10,7 @@ import SupabaseProvider from "@/providers/SupabaseProvider";
 
 import "./globals.css";
 import { Song } from "@/types";
+import Player from "@/components/Player";
 
 const font: NextFont = Figtree({ subsets: ["latin"] });
 
@@ -35,6 +36,7 @@ async function RootLayout({
           <UserProvider>
             <ModalProvider />
             <Sidebar songs={userSongs}>{children}</Sidebar>
+            <Player />
           </UserProvider>
         </SupabaseProvider>
       </body>

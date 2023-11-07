@@ -9,6 +9,7 @@ import { useUser } from "@/hooks/useUser";
 import useAuthModal, { AuthModalStore } from "@/hooks/useAuthModal";
 
 import MediaItem from "./MediaItem";
+import useOnPlay from "@/hooks/useOnPlay";
 
 interface LibraryProps {
   songs: Song[];
@@ -17,6 +18,8 @@ function Library({ songs }: LibraryProps): React.ReactElement {
   const authModal: AuthModalStore = useAuthModal();
   const uploadModal: UploadModalStore = useUploadModal();
   const { user } = useUser();
+
+  const onPlay: (id: string) => void = useOnPlay(songs);
 
   const onClick: () => void = (): void => {
     if (!user) {
@@ -48,7 +51,9 @@ function Library({ songs }: LibraryProps): React.ReactElement {
         {songs.map(
           (item: Song): React.ReactElement => (
             <MediaItem
-              onClick={(id: string): void => {}}
+              onClick={(id: string): void => {
+                onPlay(id);
+              }}
               key={item.id}
               data={item}
             />

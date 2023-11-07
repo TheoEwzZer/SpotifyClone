@@ -1,13 +1,16 @@
 "use client";
 
 import { Song } from "@/types";
-import SongItem from "./SongItem";
+import useOnPlay from "@/hooks/useOnPlay";
+import SongItem from "@/components/SongItem";
 
 interface PageContentProps {
   songs: Song[];
 }
 
 function PageContent({ songs }: PageContentProps): React.ReactElement {
+  const onPlay: (id: string) => void = useOnPlay(songs);
+
   if (songs.length === 0) {
     return <div className="mt-4 text-neutral-400">No songs available.</div>;
   }
@@ -29,7 +32,7 @@ function PageContent({ songs }: PageContentProps): React.ReactElement {
         (item: Song): React.ReactElement => (
           <SongItem
             key={item.id}
-            onClick={(): void => {}}
+            onClick={(id: string): void => onPlay(id)}
             data={item}
           />
         )
