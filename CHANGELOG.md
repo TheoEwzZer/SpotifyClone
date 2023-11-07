@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.6.0](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.5.0...v1.6.0) (2023-11-07)
+
+
+### ✨ Features
+
+* add player functionality ([0a421de](https://github.com/TheoEwzZer/SpotifyClone/commit/0a421ded3a330a8384b3071a7cc918c59497f62d))
+
+
+### 🐛 Bug Fixes
+
+* add missing navigation links to Header component for mobile ([114141f](https://github.com/TheoEwzZer/SpotifyClone/commit/114141fe17c8d30c13e2cdea7698da0cf45b760b))
+
+
+### 📦 Dependencies
+
+* add new dependencies to package.json and ([043b85e](https://github.com/TheoEwzZer/SpotifyClone/commit/043b85ead34b8a3e33dfe6486372ab448a6038a8))
+* bump @supabase/auth-helpers-nextjs from 0.8.6 to 0.8.7 ([f2f523b](https://github.com/TheoEwzZer/SpotifyClone/commit/f2f523b9104a66577513257ad8b7f34c7728394e))
+* bump @types/react from 18.2.34 to 18.2.36 ([04ba8b9](https://github.com/TheoEwzZer/SpotifyClone/commit/04ba8b9544601c5c0bc960164dae20054df9af44))
+* bump react-hook-form from 7.48.1 to 7.48.2 ([006c2bf](https://github.com/TheoEwzZer/SpotifyClone/commit/006c2bf67383843a089fa10a2ee02a27e376fb7c))
+
 ## [1.5.0](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.4.0...v1.5.0) (2023-11-05)
 
 
