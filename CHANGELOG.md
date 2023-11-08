@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.8.0](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.7.0...v1.8.0) (2023-11-08)
+
+
+### ✨ Features
+
+* add Stripe integration and helper functions ([665d3c1](https://github.com/TheoEwzZer/SpotifyClone/commit/665d3c1af6c1ba3a5b875df8fdbe9cf3c224b995))
+
+
+### 🔧 Other
+
+* add stripe.exe to .gitignore ([897a498](https://github.com/TheoEwzZer/SpotifyClone/commit/897a4982999b962891446233a85d9cad59f4de80))
+
+
+### 📦 Dependencies
+
+* add new dependencies for payment and database management ([c706b94](https://github.com/TheoEwzZer/SpotifyClone/commit/c706b945728d0449d516226f05ee11e3342e594d))
+
 ## [1.7.0](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.6.0...v1.7.0) (2023-11-08)
 
 
