@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.7.0](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.6.0...v1.7.0) (2023-11-08)
+
+
+### ✨ Features
+
+* add error and loading components ([f94f4e1](https://github.com/TheoEwzZer/SpotifyClone/commit/f94f4e140be93ec0d49ba5bbef043b4f38010523))
+
+
+### 🔥 Changes
+
+* remove Home component and its dependencies. ([2a0aace](https://github.com/TheoEwzZer/SpotifyClone/commit/2a0aace9a96ee6649569e885e516bf1ab12a32b1))
+
+
+### 📦 Dependencies
+
+* add react-spinners package ([01810c3](https://github.com/TheoEwzZer/SpotifyClone/commit/01810c354cae7245e52241c6d72e4ae86ad39dda))
+* bump @types/node from 20.8.10 to 20.9.0 ([bd24b86](https://github.com/TheoEwzZer/SpotifyClone/commit/bd24b8635ed16aa938f0188c8a53595c8a959a7d))
+* bump @types/react from 18.2.36 to 18.2.37 ([0ccb13a](https://github.com/TheoEwzZer/SpotifyClone/commit/0ccb13a7e402c3627a4650219525f9c5e1ba6ef3))
+* bump @types/react-dom from 18.2.14 to 18.2.15 ([57afeac](https://github.com/TheoEwzZer/SpotifyClone/commit/57afeac2b2288c3df21064e33ee2d91d1c1953c3))
+
 ## [1.6.0](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.5.0...v1.6.0) (2023-11-07)
 
 
