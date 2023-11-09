@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.9.0](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.8.0...v1.9.0) (2023-11-09)
+
+
+### ✨ Features
+
+* add account page ([007b011](https://github.com/TheoEwzZer/SpotifyClone/commit/007b01157f6cd36f1d0cf47e05c5c85768d6e025))
+* add subscribe modal ([6206954](https://github.com/TheoEwzZer/SpotifyClone/commit/6206954e3898a98c7709dcd7966d9d59f1c2884b))
+
 ## [1.8.0](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.7.0...v1.8.0) (2023-11-08)
 
 
