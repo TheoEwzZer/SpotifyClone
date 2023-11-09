@@ -1,16 +1,17 @@
-import { Figtree } from "next/font/google";
 import { NextFont } from "next/dist/compiled/@next/font";
+import { Figtree } from "next/font/google";
 
 import getSongsByUserId from "@/actions/getSongsByUserId";
 import Sidebar from "@/components/Sidebar";
-import ToasterProvider from "@/providers/ToasterProvider";
-import UserProvider from "@/providers/UserProvider";
 import ModalProvider from "@/providers/ModalProvider";
 import SupabaseProvider from "@/providers/SupabaseProvider";
+import ToasterProvider from "@/providers/ToasterProvider";
+import UserProvider from "@/providers/UserProvider";
 
-import "./globals.css";
-import { Song } from "@/types";
+import getActiveProductsWithPrices from "@/actions/getActiveProductsWithPrices";
 import Player from "@/components/Player";
+import { ProductWithPrice, Song } from "@/types";
+import "./globals.css";
 
 const font: NextFont = Figtree({ subsets: ["latin"] });
 
@@ -27,6 +28,7 @@ async function RootLayout({
   children: React.ReactNode;
 }): Promise<React.ReactElement> {
   const userSongs: Song[] = await getSongsByUserId();
+  const products: ProductWithPrice[] = await getActiveProductsWithPrices();
 
   return (
     <html lang="en">
@@ -34,7 +36,7 @@ async function RootLayout({
         <ToasterProvider />
         <SupabaseProvider>
           <UserProvider>
-            <ModalProvider />
+            <ModalProvider products={products} />
             <Sidebar songs={userSongs}>{children}</Sidebar>
             <Player />
           </UserProvider>
