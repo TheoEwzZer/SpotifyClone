@@ -44,7 +44,7 @@ function AuthModal(): React.ReactElement {
       <Auth
         theme="dark"
         magicLink
-        providers={["github"]}
+        providers={[]}
         supabaseClient={supabaseClient}
         appearance={{
           theme: ThemeSupa,
