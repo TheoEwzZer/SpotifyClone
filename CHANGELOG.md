@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.1](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.9.0...v1.9.1) (2023-11-09)
+
+
+### 🔥 Changes
+
+* remove GitHub as a provider in AuthModal component ([953c1b0](https://github.com/TheoEwzZer/SpotifyClone/commit/953c1b0cdc9ec7bc5b75dda6f4b8d45ccd43b4ca))
+
 ## [1.9.0](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.8.0...v1.9.0) (2023-11-09)
 
 
