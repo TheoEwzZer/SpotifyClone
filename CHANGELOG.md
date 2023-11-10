@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.9.3](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.9.2...v1.9.3) (2023-11-10)
+
+
+### 📦 Dependencies
+
+* bump eslint-config-next from 14.0.1 to 14.0.2 ([e4c3fe3](https://github.com/TheoEwzZer/SpotifyClone/commit/e4c3fe3055ffcebeb414234adcbb584e542ad17f))
+* bump next from 14.0.1 to 14.0.2 ([90722fe](https://github.com/TheoEwzZer/SpotifyClone/commit/90722fefd2cf9a2e1185dac18cad4054b85c7c33))
+* bump stripe from 14.3.0 to 14.4.0 ([705234e](https://github.com/TheoEwzZer/SpotifyClone/commit/705234e4bb78069aa1523de290aab3fd0efa8cd7))
+
+
+### 📝 Documentation
+
+* update readme ([0c7944f](https://github.com/TheoEwzZer/SpotifyClone/commit/0c7944f68362ec096f7575d571708059d6c4c3e8))
+
 ## [1.9.2](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.9.1...v1.9.2) (2023-11-09)
 
 
