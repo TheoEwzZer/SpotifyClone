@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.2](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.9.1...v1.9.2) (2023-11-09)
+
+
+### 🔒️ Security
+
+* add authentication check before pushing to router ([1de11a0](https://github.com/TheoEwzZer/SpotifyClone/commit/1de11a0b7744cdf134e5b8575de83558b2e94c77))
+
 ## [1.9.1](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.9.0...v1.9.1) (2023-11-09)
 
 
