@@ -1,5 +1,33 @@
 # Changelog
 
+## [1.9.4](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.9.3...v1.9.4) (2023-11-23)
+
+
+### 📦 Dependencies
+
+* bump @stripe/stripe-js from 2.1.11 to 2.2.0 ([3141a7b](https://github.com/TheoEwzZer/SpotifyClone/commit/3141a7b220674134eb63a645b5108e1eda9d9d7e))
+* bump @supabase/supabase-js from 2.38.4 to 2.38.5 ([810ac67](https://github.com/TheoEwzZer/SpotifyClone/commit/810ac678ef3e107e219d7c15c4eb080ac367d6ce))
+* bump @types/node from 20.9.0 to 20.9.1 ([6f3ba43](https://github.com/TheoEwzZer/SpotifyClone/commit/6f3ba43db9baf38c8801c0c269f3c0dd8d991b86))
+* bump @types/node from 20.9.1 to 20.9.2 ([192e09b](https://github.com/TheoEwzZer/SpotifyClone/commit/192e09b2bedfd66b9d500e7dcf040288e1ab0c73))
+* bump @types/node from 20.9.2 to 20.9.3 ([800dcf0](https://github.com/TheoEwzZer/SpotifyClone/commit/800dcf07dac5c9776feed10b34e68ef965f0baee))
+* bump @types/node from 20.9.3 to 20.9.4 ([cb5ec41](https://github.com/TheoEwzZer/SpotifyClone/commit/cb5ec41b3e28a53021e8a52c7a0b552d6b8ce80b))
+* bump @types/react from 18.2.37 to 18.2.38 ([5b56253](https://github.com/TheoEwzZer/SpotifyClone/commit/5b56253e9f927df631bc39cfe4bfbafeb991970c))
+* bump @types/react-dom from 18.2.15 to 18.2.16 ([ab5344a](https://github.com/TheoEwzZer/SpotifyClone/commit/ab5344af9915e7a8d9a58e40e239cd9b2f57ceb5))
+* bump @types/react-dom from 18.2.16 to 18.2.17 ([0a762a1](https://github.com/TheoEwzZer/SpotifyClone/commit/0a762a102161cf1ecfe24f99ca6e35791dadf5ed))
+* bump eslint from 8.53.0 to 8.54.0 ([cb366bf](https://github.com/TheoEwzZer/SpotifyClone/commit/cb366bf678975e6daf7124e3c63ced29e6f744db))
+* bump eslint-config-next from 14.0.2 to 14.0.3 ([c9ad6a0](https://github.com/TheoEwzZer/SpotifyClone/commit/c9ad6a09fe7ea3a2084bce502dd22f80c138f05a))
+* bump next from 14.0.2 to 14.0.3 ([3424d58](https://github.com/TheoEwzZer/SpotifyClone/commit/3424d5867d925acc8a141197bd202492cde83670))
+* bump react-icons from 4.11.0 to 4.12.0 ([325f8ab](https://github.com/TheoEwzZer/SpotifyClone/commit/325f8abda9356f7cf831e9711acc25fb15ab607d))
+* bump stripe from 14.4.0 to 14.5.0 ([cbf7eee](https://github.com/TheoEwzZer/SpotifyClone/commit/cbf7eee8bd9af9473ca3c9c627fb48dc8fb9c154))
+* bump supabase from 1.110.1 to 1.112.0 ([cf2674f](https://github.com/TheoEwzZer/SpotifyClone/commit/cf2674f68ca7366568d193af9f544d81c343cd2d))
+* bump supabase from 1.112.0 to 1.113.2 ([b54b7ea](https://github.com/TheoEwzZer/SpotifyClone/commit/b54b7eab8372a2a219d29e6491947128a3f30073))
+
+
+### 📝 Documentation
+
+* add images to README ([46fc591](https://github.com/TheoEwzZer/SpotifyClone/commit/46fc59136f25287415b917f0d0d5082153063424))
+* updates README features ([e1b8abb](https://github.com/TheoEwzZer/SpotifyClone/commit/e1b8abbc0cd7cbd40a46596adb924fe10cdaf397))
+
 ## [1.9.3](https://github.com/TheoEwzZer/SpotifyClone/compare/v1.9.2...v1.9.3) (2023-11-10)
 
 
