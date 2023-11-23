@@ -52,11 +52,23 @@ The SpotifyClone repository is a project that aims to replicate the functionalit
 
 |     | Feature             | Description                                                                                                                                                                                 |
 | --- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ⚙️  | **Architecture**    | The codebase follows a monolithic architecture where the different components are organized into directories. It adopts a single-page application structure using React.                    |
-| 🔗  | **Dependencies**    | The codebase relies on various external libraries, including React, Next.js, and React Router, to build the SpotifyClone application.                                                       |
-| 🧩  | **Modularity**      | The codebase demonstrates modularity by organizing components into separate directories based on their functionality. This allows for easy maintenance and extensibility.                   |
-| 🔀  | **Version Control** | The repository uses Git for version control. It includes a `.github` directory with workflows and settings for automated processes such as dependency management and release notifications. |
-| 🔌  | **Integrations**    | The codebase integrates various APIs to interact with external services, such as creating checkout sessions, managing webhooks, and creating portal links.                                  |
+| 🎵  | **Song Upload**    | Users can upload their own songs to the application, enhancing the music library with custom content.                                                                                        |
+| 💳  | **Stripe Integration**    | Integration with the Stripe API enables secure and seamless payment processing for premium features.                                                                                  |
+| 🗃️  | **Supabase and PostgreSQL Database Handling**      | Utilizes Supabase and PostgreSQL for robust database management, ensuring efficient storage and retrieval of user and song data.                             |
+| 🎨  | **Tailwind Design** | Implements Tailwind CSS for a sleek and visually appealing user interface, enhancing the overall user experience.                                                                           |
+| 🔄  | **Tailwind Animations and Transition Effects**    | Enhances the user interface with animated elements and smooth transitions, creating an engaging and dynamic user experience.                                   |
+| 📱  | **Full Responsiveness**    | Ensures the application's compatibility and optimal display on various devices, offering a seamless experience across desktops, tablets, and mobile phones.                           |
+| 🔐  | **Credential Authentication with Supabase**    | Implements secure authentication using Supabase credentials, safeguarding user accounts and ensuring data privacy.                                               |
+| 📤  | **File and Image Upload using Supabase Storage**    | Utilizes Supabase storage for efficient handling of file and image uploads, providing users with the capability to customize their profiles or upload album artwork.  |
+| 📝  | **Client Form Validation with react-hook-form**    | Implements client-side form validation using react-hook-form, ensuring accurate and user-friendly input handling.                                            |
+| 🚨  | **Server Error Handling with react-toast**    | Enhances user experience by implementing server error handling with react-toast, providing clear and informative error messages to users.                         |
+| 🎶  | **Play Song Audio**    | Enables users to play audio for the selected songs directly within the application, enhancing the overall music listening experience.                                                    |
+| ⭐  | **Favorites System**    | Allows users to mark and manage their favorite songs, creating a personalized music library based on individual preferences.                                                            |
+| 🎼  | **Playlists / Liked Songs System**    | Implements a comprehensive system for creating playlists, as well as liking and organizing songs based on user preferences.                                               |
+| 💳  | **Stripe Recurring Payment Integration**    | Enables users to subscribe to premium plans with recurring payments through the Stripe API, ensuring uninterrupted access to premium features.                      |
+| 🔍  | **Fetch Data in Server React Components**    | Utilizes direct database access in server React components, optimizing data fetching for improved performance without relying on additional API calls.             |
+| 🔄  | **Handling Relations in Real-Time Environment**    | Manages relationships between server and child components in real-time, ensuring synchronized updates and a seamless user experience.                        |
+| 🛑  | **Cancelling Stripe Subscriptions**    | Allows users to cancel their Stripe subscriptions seamlessly within the application, providing a hassle-free process for managing premium plans.                         |
 
 ---
 
