@@ -70,6 +70,21 @@ The SpotifyClone repository is a project that aims to replicate the functionalit
 | 🔄  | **Handling Relations in Real-Time Environment**    | Manages relationships between server and child components in real-time, ensuring synchronized updates and a seamless user experience.                        |
 | 🛑  | **Cancelling Stripe Subscriptions**    | Allows users to cancel their Stripe subscriptions seamlessly within the application, providing a hassle-free process for managing premium plans.                         |
 
+<div align="center">
+  <img src="public/images/Capture5.PNG" alt="Image 1" style="width: 49%;"/>
+  <img src="public/images/Capture1.PNG" alt="Image 2" style="width: 49%;"/>
+</div>
+
+<div align="center">
+  <img src="public/images/Capture4.PNG" alt="Image 3" style="width: 49%;"/>
+  <img src="public/images/Capture3.PNG" alt="Image 4" style="width: 49%;"/>
+</div>
+
+<div align="center">
+  <img src="public/images/Capture2.PNG" alt="Image 5" style="width: 49%;"/>
+  <img src="public/images/Capture6.PNG" alt="Image 6" style="width: 49%;"/>
+</div>
+
 ---
 
 ## 📂 Repository Structure
